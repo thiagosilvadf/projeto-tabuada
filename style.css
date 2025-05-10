@@ -1,11 +1,20 @@
 body {
-    background-color: rgb(185, 27, 27);
+    background: linear-gradient(to right, rgb(49, 165, 211), rgb(156, 64, 179));
     font: normal 15pt Arial;
 }
 
 header {
     color: white;
     text-align: center;
+    
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: blue;
 }
 
 section {
@@ -21,4 +30,5 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+    padding: 15px;
 }
